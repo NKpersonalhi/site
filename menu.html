@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnvisionX - Menu</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans', sans-serif;
+    }
+
+    /* Header */
+    header {
+      background-color: #070e16;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo img {
+      height: 60px;
+      margin-left: 50px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ff0000;
+    }
+
+    /* Menu Section */
+    .menu {
+      padding: 80px 0;
+      text-align: center;
+      background-color: #070e16;
+    }
+
+    .menu h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: #ffffff;
+    }
+
+    .menu-items {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .menu-item {
+      max-width: 300px;
+      margin: 20px;
+      text-align: left;
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    .menu-item h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .menu-item p {
+      font-size: 16px;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #ff0000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e60000;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="iconlogo.jpg" alt="EnvisionX Logo">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reservations">Reservations</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="menu">
+  <h2>Our Best Ones</h2>
+  <div class="menu-items">
+    
+    <!-- Existing Menu Items -->
+    <div class="menu-item">
+      <img src="burger1.jpg" alt="Buggati Chiron">
+      <h3>Buggati Chiron</h3>
+      <p>The Bugatti Chiron combines extreme performance with luxury and advanced technology features such as adaptive aerodynamics and sophisticated suspension systems designed for optimal handling. Please note that while these specifications highlight the vehicle's capabilities under controlled conditions or manufacturer testing environments, real-world performance can vary based on several factors such as road conditions and weather.</p>
+      <button class="btn">View Details</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="burger2.jpg" alt="Koenigsegg Jesko">
+      <h3>Koenigsegg Jesko</h3>
+      <p>The Koenigsegg Jesko is an ultra-high-performance hypercar designed to push the boundaries of automotive engineering, speed, and performance. Named after Jesko von Koenigsegg, the father of the company's founder Christian von Koenigsegg, this car showcases cutting-edge technology and design.</p>
+      <button class="btn">View Details</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="burger3.jpg" alt="Rolls Royce Phantom">
+      <h3>Rolls Royce Phantom</h3>
+      <p>The Rolls-Royce Phantom is a flagship luxury sedan that epitomizes opulence, craftsmanship, and automotive engineering. Launched in its current generation in 2017, the Phantom continues to be the pinnacle of the Rolls-Royce lineup and showcases an unmatched level of comfort and sophistication.</p>
+      <button class="btn">View Details</button>
+    </div>
+
+    <!-- Additional Menu Items -->
+    <div class="menu-item">
+      <img src="C:\Users\Nirbhay kumar\Downloads\EnvisionX Cars\gallery6" alt="Ferrari LaFerrari">
+      <h3>Ferrari LaFerrari</h3>
+      <p>The Ferrari LaFerrari is an incredibly powerful hybrid supercar, known for its sleek design and unparalleled performance, boasting a V12 engine combined with an electric motor for a combined output of 950 horsepower. It stands as one of Ferrari's finest achievements in automotive engineering.</p>
+      <button class="btn">View Details</button>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\Nirbhay kumar\Downloads\EnvisionX Cars\gallery7" alt="McLaren P1">
+      <h3>McLaren P1</h3>
+      <p>The McLaren P1 is a hybrid supercar that combines advanced aerodynamics, cutting-edge technology, and incredible performance. With a 3.8-liter twin-turbo V8 engine combined with an electric motor, it offers an exciting driving experience and stands as a pinnacle of McLaren's engineering excellence.</p>
+      <button class="btn">View Details</button>
+    </div>
+  
+  </div>
+</section>
+
+</body>
+</html>
